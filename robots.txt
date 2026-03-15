@@ -1,2 +1,67 @@
+# ══════════════════════════════════════════
+# robots.txt — Svitanok Club
+# https://svitanok.club/robots.txt
+# ══════════════════════════════════════════
+
+# Усі пошукові роботи
 User-agent: *
-Disallow:
+Allow: /
+
+# Блокуємо службові шляхи (якщо з'являться)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cdn-cgi/
+Disallow: /*.json$
+Disallow: /*?*utm_
+
+# Crawl-delay для агресивних ботів
+Crawl-delay: 10
+
+# ── Google ─────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# ── Bing ───────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+# ── Yandex ─────────────────────────────────
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 5
+
+# ── SEO-інструменти ────────────────────────
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+# ── Блокуємо непотрібних ботів ─────────────
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# ══════════════════════════════════════════
+# Sitemap
+# ══════════════════════════════════════════
+Sitemap: https://svitanok.club/sitemap.xml
