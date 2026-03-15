@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://svitanok.club/sitemap.xsl"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.google.com/schemas/sitemap-image/1.1
+    http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!-- ══════════════════════════════════════════
+       ГОЛОВНА СТОРІНКА
+  ══════════════════════════════════════════ -->
+  <url>
+    <loc>https://svitanok.club/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- hreflang alternates -->
+    <xhtml:link rel="alternate" hreflang="uk"       href="https://svitanok.club/"/>
+    <xhtml:link rel="alternate" hreflang="en"       href="https://svitanok.club/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svitanok.club/"/>
+
+    <!-- Image indexing -->
+    <image:image>
+      <image:loc>https://svitanok.club/og-image.jpg</image:loc>
+      <image:title>Svitanok Club — Спільнота бігунів та велосипедистів Києва</image:title>
+      <image:caption>Ранкові тренування бігунів та велосипедистів у Києві</image:caption>
+      <image:geo_location>Київ, Україна</image:geo_location>
+      <image:license>https://svitanok.club/</image:license>
+    </image:image>
+  </url>
+
+  <!-- ══════════════════════════════════════════
+       АНГЛОМОВНА ВЕРСІЯ
+  ══════════════════════════════════════════ -->
+  <url>
+    <loc>https://svitanok.club/en/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="uk"       href="https://svitanok.club/"/>
+    <xhtml:link rel="alternate" hreflang="en"       href="https://svitanok.club/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svitanok.club/"/>
+  </url>
+
+  <!-- ══════════════════════════════════════════
+       МАЙБУТНІ СТОРІНКИ — заготовки
+       (розкоментуй коли з'являться)
+  ══════════════════════════════════════════ -->
+
+  <!-- Про клуб -->
+  <!--
+  <url>
+    <loc>https://svitanok.club/pro-nas/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svitanok.club/pro-nas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svitanok.club/pro-nas/"/>
+  </url>
+  -->
+
+  <!-- Події / Тренування -->
+  <!--
+  <url>
+    <loc>https://svitanok.club/podii/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+  <!-- Блог / Статті -->
+  <!--
+  <url>
+    <loc>https://svitanok.club/blog/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  -->
+
+  <!-- Приклади статей блогу -->
+  <!--
+  <url>
+    <loc>https://svitanok.club/blog/kraschi-marshruty-dlya-bigu-v-kyievi/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://svitanok.club/blog/pidhotovka-do-kyivskoho-marafonu/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://svitanok.club/blog/velomarshrut-kyiv-pyrohovo/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  -->
+
+  <!-- Контакти -->
+  <!--
+  <url>
+    <loc>https://svitanok.club/kontakty/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  -->
+
+</urlset>
