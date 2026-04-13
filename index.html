@@ -1,852 +1,753 @@
 <!DOCTYPE html>
-<html lang="uk" prefix="og: https://ogp.me/ns#">
+<html lang="uk">
 <head>
-<!-- ═══════════════════════════════════════════
-     CHARSET & VIEWPORT
-═══════════════════════════════════════════ -->
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
-<!-- ═══════════════════════════════════════════
-     PRIMARY SEO
-═══════════════════════════════════════════ -->
-<title>Svitanok Club — Спільнота Бігунів та Велосипедистів у Києві</title>
-<meta name="title" content="Svitanok Club — Спільнота Бігунів та Велосипедистів у Києві">
-<meta name="description" content="Svitanok Club — київська спільнота бігунів та велосипедистів. Ранкові тренування, заходи, підтримка та мотивація для всіх рівнів підготовки. Приєднуйся безкоштовно через Telegram.">
-<meta name="keywords" content="бігові клуби Київ, велоклуб Київ, біг Київ, велоспорт Київ, ранкові пробіжки, спортивна спільнота Київ, Svitanok Club, running club Kyiv, cycling club Kyiv, тренування Київ">
-<meta name="author" content="Svitanok Club">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta name="googlebot" content="index, follow">
-<meta name="revisit-after" content="7 days">
-<meta name="language" content="Ukrainian">
-<meta name="geo.region" content="UA-30">
-<meta name="geo.placename" content="Київ, Україна">
-<meta name="geo.position" content="50.4501;30.5234">
-<meta name="ICBM" content="50.4501, 30.5234">
-<link rel="canonical" href="https://svitanok.club/">
-
-<!-- ═══════════════════════════════════════════
-     OPEN GRAPH (Facebook / LinkedIn / Telegram)
-═══════════════════════════════════════════ -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Svitanok Club">
-<meta property="og:locale" content="uk_UA">
-<meta property="og:locale:alternate" content="en_US">
-<meta property="og:url" content="https://svitanok.club/">
-<meta property="og:title" content="Svitanok Club — Спільнота Бігунів та Велосипедистів у Києві">
-<meta property="og:description" content="Приєднуйся до Svitanok Club — київської спільноти любителів бігу та велоспорту. Ранкові тренування, нові друзі та мотивація щодня.">
-<meta property="og:image" content="https://svitanok.club/og-image.jpg">
-<meta property="og:image:secure_url" content="https://svitanok.club/og-image.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Svitanok Club — бігуни та велосипедисти Києва">
-<meta property="og:image:type" content="image/jpeg">
-
-<!-- ═══════════════════════════════════════════
-     TWITTER / X CARD
-═══════════════════════════════════════════ -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@svitanokclub">
-<meta name="twitter:creator" content="@svitanokclub">
-<meta name="twitter:url" content="https://svitanok.club/">
-<meta name="twitter:title" content="Svitanok Club — Спільнота Бігунів та Велосипедистів у Києві">
-<meta name="twitter:description" content="Приєднуйся до Svitanok Club — київської спільноти любителів бігу та велоспорту. Ранкові тренування, нові друзі та мотивація щодня.">
-<meta name="twitter:image" content="https://svitanok.club/og-image.jpg">
-<meta name="twitter:image:alt" content="Svitanok Club — бігуни та велосипедисти Києва">
-
-<!-- ═══════════════════════════════════════════
-     FAVICONS (via CDN — svg + png fallbacks)
-═══════════════════════════════════════════ -->
-<!-- SVG favicon — scales perfectly on all screens -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23000'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='20' fill='%23FF006E'>S</text></svg>">
-<!-- PNG fallbacks via shields.io badge CDN trick — universal compatibility -->
-<link rel="icon" type="image/png" sizes="32x32" href="https://img.icons8.com/material-rounded/32/FF006E/running.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://img.icons8.com/material-rounded/16/FF006E/running.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://img.icons8.com/material-rounded/180/FF006E/running.png">
-<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23000'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='20' fill='%23FF006E'>S</text></svg>">
-
-<!-- ═══════════════════════════════════════════
-     PWA / APP META
-═══════════════════════════════════════════ -->
-<meta name="theme-color" content="#000000">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-navbutton-color" content="#FF006E">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Svitanok Club">
-<meta name="application-name" content="Svitanok Club">
-<meta name="format-detection" content="telephone=no">
-
-<!-- ═══════════════════════════════════════════
-     PERFORMANCE HINTS
-═══════════════════════════════════════════ -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Svitanok Club — Київ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://images.unsplash.com">
-<link rel="dns-prefetch" href="https://t.me">
-<link rel="dns-prefetch" href="https://img.icons8.com">
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@300;400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@300;400&display=swap" rel="stylesheet"></noscript>
-
-<!-- ═══════════════════════════════════════════
-     STRUCTURED DATA — JSON-LD (Schema.org)
-═══════════════════════════════════════════ -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SportsOrganization",
-      "@id": "https://svitanok.club/#organization",
-      "name": "Svitanok Club",
-      "alternateName": ["Світанок Клуб", "Svitanok Running Club"],
-      "url": "https://svitanok.club/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://svitanok.club/og-image.jpg",
-        "width": 1200,
-        "height": 630
-      },
-      "description": "Svitanok Club — київська спільнота бігунів та велосипедистів. Ранкові тренування, заходи та підтримка для всіх рівнів підготовки.",
-      "foundingDate": "2025",
-      "sport": ["Running", "Cycling", "Біг", "Велоспорт"],
-      "areaServed": {
-        "@type": "City",
-        "name": "Київ",
-        "sameAs": "https://www.wikidata.org/wiki/Q1899"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Київ",
-        "addressCountry": "UA"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "hello@svitanok.club",
-        "contactType": "customer service",
-        "availableLanguage": ["Ukrainian", "Russian", "English"]
-      },
-      "sameAs": [
-        "https://t.me/svitanokclub",
-        "https://www.instagram.com/svitanokclub",
-        "https://www.strava.com/clubs/svitanok"
-      ],
-      "numberOfEmployees": {
-        "@type": "QuantitativeValue",
-        "value": 30
-      }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://svitanok.club/#website",
-      "url": "https://svitanok.club/",
-      "name": "Svitanok Club",
-      "description": "Спільнота бігунів та велосипедистів у Києві",
-      "publisher": {
-        "@id": "https://svitanok.club/#organization"
-      },
-      "inLanguage": "uk-UA",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://svitanok.club/?s={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://svitanok.club/#webpage",
-      "url": "https://svitanok.club/",
-      "name": "Svitanok Club — Спільнота Бігунів та Велосипедистів у Києві",
-      "description": "Svitanok Club — київська спільнота бігунів та велосипедистів. Ранкові тренування, заходи та підтримка для всіх рівнів підготовки.",
-      "isPartOf": {"@id": "https://svitanok.club/#website"},
-      "about": {"@id": "https://svitanok.club/#organization"},
-      "inLanguage": "uk-UA",
-      "datePublished": "2025-01-01",
-      "dateModified": "2026-03-15",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Головна",
-          "item": "https://svitanok.club/"
-        }]
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Як приєднатися до Svitanok Club?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Приєднатися до Svitanok Club можна безкоштовно через Telegram-групу. Натисніть кнопку «Приєднатися» на сайті та перейдіть до нашого чату."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Де проходять тренування Svitanok Club?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Тренування клубу проходять у Києві. Конкретні локації та час анонсуються у Telegram-групі клубу."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Для якого рівня підготовки підходить клуб?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Svitanok Club відкритий для всіх — від початківців до досвідчених атлетів. Головне — бажання рухатися та бути частиною спільноти."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
-
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
+/* ── RESET ── */
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --black:#000;
-  --white:#fff;
-  --pink:#FF006E;
-  --gray:#6b6b6b;
-  --light:#f2f2f2;
-  --font-display:'Barlow Condensed',sans-serif;
-  --font-body:'Barlow',sans-serif;
+  --bg:#0d0d0d;
+  --paper:#f0ebe3;
+  --ink:#1a1a1a;
+  --white:#fafaf8;
+  --grain-opacity:.55;
+  --accent:#e8e0d0;
+  --mid:#888;
+  --border:rgba(240,235,227,.12);
 }
 html{scroll-behavior:smooth}
 body{
-  font-family:var(--font-body);
-  background:var(--white);
-  color:var(--black);
+  background:var(--bg);
+  color:var(--white);
+  font-family:'Space Mono',monospace;
   overflow-x:hidden;
-  -webkit-font-smoothing:antialiased;
+  cursor:crosshair;
 }
 
-/* ── CURSOR ─────────────────────────────────── */
-.cur{
-  width:12px;height:12px;
-  background:var(--pink);
-  border-radius:50%;
-  position:fixed;pointer-events:none;z-index:9999;
-  transition:transform .2s,width .2s,height .2s;
-  transform:translate(-50%,-50%);
+/* ── GRAIN OVERLAY ── */
+body::before{
+  content:'';
+  position:fixed;inset:0;z-index:9998;
+  pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat:repeat;
+  background-size:128px 128px;
+  opacity:var(--grain-opacity);
+  mix-blend-mode:overlay;
 }
-.cur.big{width:44px;height:44px;background:transparent;border:1px solid var(--black);mix-blend-mode:difference;}
-@media(max-width:768px){.cur{display:none}}
 
-/* ── NAV ─────────────────────────────────────── */
+/* ── FILM FRAME ORNAMENT ── */
+.film-holes{
+  position:fixed;left:0;top:0;bottom:0;width:28px;z-index:9990;
+  display:flex;flex-direction:column;align-items:center;
+  justify-content:space-around;padding:20px 0;
+  pointer-events:none;
+}
+.film-holes-r{left:auto;right:0;}
+.hole{
+  width:10px;height:14px;
+  border-radius:2px;
+  border:1px solid rgba(240,235,227,.2);
+  background:rgba(0,0,0,.8);
+}
+
+/* ── NAV ── */
 nav{
   position:fixed;top:0;left:0;right:0;z-index:900;
   display:flex;align-items:center;justify-content:space-between;
-  padding:0 48px;
-  height:64px;
-  background:var(--white);
-  border-bottom:1px solid rgba(0,0,0,.08);
+  padding:0 60px;height:56px;
+  border-bottom:1px solid var(--border);
+  background:rgba(13,13,13,.92);
+  backdrop-filter:blur(4px);
 }
 .logo{
-  font-family:var(--font-display);
-  font-size:20px;font-weight:900;
-  letter-spacing:2px;text-transform:uppercase;
-  color:var(--black);
+  font-family:'Bebas Neue',sans-serif;
+  font-size:22px;letter-spacing:4px;
+  color:var(--white);
 }
-.logo span{color:var(--pink);}
-.nav-links{display:flex;gap:36px;list-style:none;}
-.nav-links a{
-  font-family:var(--font-display);
-  font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;
-  color:var(--black);text-decoration:none;opacity:.5;transition:opacity .2s;
+.logo-frame{
+  font-family:'Courier Prime',monospace;
+  font-size:10px;color:var(--mid);
+  letter-spacing:3px;text-transform:uppercase;
 }
-.nav-links a:hover{opacity:1;}
+.logo-frame span{color:var(--white);}
+.nav-meta{
+  display:flex;align-items:center;gap:32px;
+}
+.nav-frame{
+  font-family:'Courier Prime',monospace;
+  font-size:9px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--mid);
+}
 .nav-join{
-  font-family:var(--font-display);
-  font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
-  color:var(--white);background:var(--black);
-  padding:10px 24px;text-decoration:none;
-  border:1px solid var(--black);
-  transition:background .25s,color .25s;
+  font-family:'Space Mono',monospace;
+  font-size:10px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--bg);
+  background:var(--paper);
+  padding:9px 20px;
+  text-decoration:none;
+  border:1px solid var(--paper);
+  transition:all .2s;
 }
-.nav-join:hover{background:var(--pink);border-color:var(--pink);}
-@media(max-width:768px){
-  nav{padding:0 20px;}
-  .nav-links{display:none;}
-  .nav-join{padding:8px 18px;}
-}
+.nav-join:hover{background:transparent;color:var(--paper);}
+@media(max-width:768px){nav{padding:0 28px;}.nav-meta{gap:16px;}}
 
-/* ── HERO ────────────────────────────────────── */
+/* ── HERO ── */
 .hero{
   min-height:100vh;
+  padding-top:56px;
   display:grid;
   grid-template-rows:1fr auto;
-  padding-top:64px;
-  position:relative;overflow:hidden;
+  position:relative;
+}
+.hero-bg{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 60% 80% at 70% 50%, rgba(30,28,25,.4) 0%, transparent 70%),
+    var(--bg);
+  z-index:0;
+}
+/* Film strip top */
+.film-strip{
+  position:absolute;top:56px;left:0;right:0;
+  height:32px;z-index:5;
+  background:var(--bg);
+  border-bottom:1px solid rgba(240,235,227,.08);
+  display:flex;align-items:center;gap:0;overflow:hidden;
+}
+.film-strip-num{
+  font-family:'Courier Prime',monospace;
+  font-size:9px;color:rgba(240,235,227,.18);
+  letter-spacing:1px;
+  padding:0 12px;
+  border-right:1px solid rgba(240,235,227,.06);
+  height:100%;display:flex;align-items:center;
+  white-space:nowrap;
 }
 .hero-inner{
-  display:flex;flex-direction:column;
-  justify-content:center;
-  padding:80px 48px 40px;
   position:relative;z-index:2;
+  display:flex;flex-direction:column;justify-content:center;
+  padding:120px 60px 60px;
 }
-.hero-tag{
-  font-family:var(--font-display);
-  font-size:12px;font-weight:700;letter-spacing:5px;text-transform:uppercase;
-  color:var(--pink);margin-bottom:24px;
-  opacity:0;animation:up .8s .3s forwards;
+.hero-counter{
+  font-family:'Courier Prime',monospace;
+  font-size:10px;letter-spacing:4px;
+  color:var(--mid);
+  margin-bottom:32px;
+  display:flex;align-items:center;gap:16px;
+}
+.hero-counter::before{
+  content:'';display:block;
+  width:40px;height:1px;background:rgba(240,235,227,.3);
 }
 .hero-h1{
-  font-family:var(--font-display);
-  font-size:clamp(72px,14vw,200px);
-  font-weight:900;line-height:.88;
-  letter-spacing:-2px;text-transform:uppercase;
-  margin-bottom:32px;
-  opacity:0;animation:up .8s .5s forwards;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(80px,16vw,220px);
+  line-height:.88;
+  letter-spacing:-1px;
+  color:var(--white);
+  margin-bottom:0;
+  opacity:0;animation:fadeUp 1s .4s forwards;
 }
-.hero-h1 em{font-style:normal;color:var(--pink);}
-.hero-desc{
-  font-size:clamp(16px,1.8vw,20px);
-  font-weight:300;line-height:1.6;
-  color:var(--gray);
-  max-width:540px;
+.hero-h1-sub{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(80px,16vw,220px);
+  line-height:.88;
+  letter-spacing:-1px;
+  color:transparent;
+  -webkit-text-stroke:1px rgba(240,235,227,.25);
   margin-bottom:48px;
-  opacity:0;animation:up .8s .7s forwards;
+  opacity:0;animation:fadeUp 1s .6s forwards;
+}
+.hero-bottom{
+  display:flex;align-items:flex-end;justify-content:space-between;
+  gap:40px;
+}
+.hero-desc{
+  font-family:'Courier Prime',monospace;
+  font-size:13px;line-height:1.9;
+  color:rgba(240,235,227,.45);
+  max-width:380px;
+  border-left:1px solid rgba(240,235,227,.15);
+  padding-left:20px;
+  opacity:0;animation:fadeUp 1s .8s forwards;
 }
 .hero-actions{
-  display:flex;align-items:center;gap:24px;
-  opacity:0;animation:up .8s .9s forwards;
+  display:flex;flex-direction:column;align-items:flex-end;gap:16px;
+  opacity:0;animation:fadeUp 1s 1s forwards;
 }
-.btn-primary{
-  font-family:var(--font-display);
-  font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
-  color:var(--white);background:var(--pink);
-  padding:16px 44px;text-decoration:none;
-  border:2px solid var(--pink);
-  transition:all .3s;
+.btn-film{
+  font-family:'Space Mono',monospace;
+  font-size:10px;letter-spacing:3px;text-transform:uppercase;
+  color:var(--bg);
+  background:var(--paper);
+  padding:14px 36px;text-decoration:none;
+  transition:all .25s;
+  position:relative;
 }
-.btn-primary:hover{background:transparent;color:var(--pink);}
-.btn-ghost{
-  font-family:var(--font-display);
-  font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;
-  color:var(--gray);text-decoration:none;
-  border-bottom:1px solid transparent;
-  transition:color .2s,border-color .2s;
+.btn-film::after{
+  content:'';position:absolute;
+  bottom:-4px;right:-4px;
+  width:100%;height:100%;
+  border:1px solid rgba(240,235,227,.2);
+  transition:all .25s;
 }
-.btn-ghost:hover{color:var(--black);border-color:var(--black);}
+.btn-film:hover{background:transparent;color:var(--paper);}
+.btn-film:hover::after{bottom:-6px;right:-6px;}
+.btn-outline{
+  font-family:'Courier Prime',monospace;
+  font-size:10px;letter-spacing:3px;text-transform:uppercase;
+  color:rgba(240,235,227,.4);
+  text-decoration:none;
+  transition:color .2s;
+}
+.btn-outline:hover{color:var(--paper);}
 
-/* ticker */
+/* hero ticker */
 .hero-ticker{
+  position:relative;z-index:2;
   overflow:hidden;
-  border-top:1px solid var(--black);
-  background:var(--black);
-  color:var(--white);
-  padding:14px 0;
-  white-space:nowrap;
-  opacity:0;animation:fadeIn .5s 1.4s forwards;
+  border-top:1px solid var(--border);
+  padding:12px 0;
 }
 .ticker-track{
-  display:inline-flex;gap:0;
-  animation:ticker 22s linear infinite;
+  display:inline-flex;
+  animation:ticker 28s linear infinite;
+  white-space:nowrap;
 }
 .ticker-item{
-  font-family:var(--font-display);
-  font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
-  padding:0 40px;color:rgba(255,255,255,.4);
+  font-family:'Courier Prime',monospace;
+  font-size:10px;letter-spacing:4px;text-transform:uppercase;
+  color:rgba(240,235,227,.25);
+  padding:0 36px;
 }
-.ticker-item .dot{color:var(--pink);margin-right:40px;}
+.ticker-item .sep{color:rgba(240,235,227,.12);margin:0 8px;}
 @keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
-/* hero bg deco */
-.hero-deco{
-  position:absolute;right:-60px;top:50%;
-  transform:translateY(-50%);
-  font-family:var(--font-display);
-  font-size:clamp(200px,30vw,420px);font-weight:900;
-  letter-spacing:-8px;text-transform:uppercase;
-  color:transparent;
-  -webkit-text-stroke:1px rgba(0,0,0,.06);
-  pointer-events:none;line-height:1;
-  opacity:0;animation:fadeIn 1s 1s forwards;
-  user-select:none;
-}
 @media(max-width:768px){
-  .hero-inner{padding:60px 20px 40px;}
-  .hero-deco{display:none;}
-  .hero-actions{flex-direction:column;align-items:flex-start;gap:16px;}
+  .hero-inner{padding:100px 28px 40px;}
+  .hero-bottom{flex-direction:column;align-items:flex-start;}
+  .hero-actions{align-items:flex-start;}
 }
 
-/* ── STATS ────────────────────────────────────── */
-.stats{
-  display:grid;grid-template-columns:repeat(3,1fr);
-  border-top:1px solid rgba(0,0,0,.1);
+/* ── PHOTO SECTION ── */
+.photo-sec{
+  display:grid;
+  grid-template-columns:3fr 2fr;
+  min-height:85vh;
+  border-top:1px solid var(--border);
 }
-.stat{
-  padding:80px 48px;
-  border-right:1px solid rgba(0,0,0,.1);
+.photo-main{
+  position:relative;overflow:hidden;
+  background:#0a0a0a;
+}
+.photo-main img{
+  width:100%;height:100%;object-fit:cover;
+  filter:grayscale(100%) contrast(1.15) brightness(.85);
+  display:block;
+  transition:transform .8s ease;
+}
+.photo-main:hover img{transform:scale(1.03);}
+/* scanlines */
+.photo-main::after{
+  content:'';position:absolute;inset:0;
+  background:repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,.08) 2px,
+    rgba(0,0,0,.08) 4px
+  );
+  pointer-events:none;
+}
+.photo-frame-label{
+  position:absolute;top:20px;left:20px;
+  font-family:'Courier Prime',monospace;
+  font-size:9px;letter-spacing:3px;
+  color:rgba(240,235,227,.5);
+  background:rgba(0,0,0,.6);
+  padding:5px 10px;
+}
+.photo-frame-num{
+  position:absolute;bottom:20px;right:20px;
+  font-family:'Courier Prime',monospace;
+  font-size:32px;font-weight:700;
+  color:rgba(240,235,227,.12);
+  line-height:1;
+}
+.photo-side{
+  border-left:1px solid var(--border);
+  display:flex;flex-direction:column;
+}
+.photo-side-top{
+  flex:1;
+  padding:60px 40px;
+  display:flex;flex-direction:column;justify-content:center;
+  border-bottom:1px solid var(--border);
+}
+.section-stamp{
+  font-family:'Courier Prime',monospace;
+  font-size:9px;letter-spacing:4px;text-transform:uppercase;
+  color:rgba(240,235,227,.3);
+  margin-bottom:28px;
+  display:flex;align-items:center;gap:12px;
+}
+.section-stamp::before{
+  content:'';display:block;
+  width:24px;height:1px;background:rgba(240,235,227,.2);
+}
+.photo-side-top h2{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(48px,5vw,80px);
+  line-height:.92;letter-spacing:1px;
+  color:var(--white);
+  margin-bottom:28px;
+}
+.photo-side-top p{
+  font-family:'Courier Prime',monospace;
+  font-size:12px;line-height:1.9;
+  color:rgba(240,235,227,.4);
+  margin-bottom:14px;
+}
+.about-link{
+  font-family:'Space Mono',monospace;
+  font-size:10px;letter-spacing:2px;text-transform:uppercase;
+  color:rgba(240,235,227,.35);
+  text-decoration:none;
+  display:inline-flex;align-items:center;gap:8px;
+  margin-top:8px;
+  transition:color .2s;
+}
+.about-link:hover{color:var(--paper);}
+.photo-side-bottom{
+  display:grid;grid-template-columns:1fr 1fr;
+}
+.stat-cell{
+  padding:40px 32px;
+  border-right:1px solid var(--border);
   position:relative;
   overflow:hidden;
   transition:background .3s;
 }
-.stat:last-child{border-right:0;}
-.stat:hover{background:var(--black);}
-.stat:hover .stat-num,.stat:hover .stat-label{color:var(--white);}
-.stat:hover .stat-bar{background:var(--pink);}
-.stat-bar{
-  position:absolute;top:0;left:0;
-  width:0;height:3px;
-  background:var(--black);
-  transition:width .4s .1s, background .3s;
-}
-.stat:hover .stat-bar{width:100%;}
+.stat-cell:last-child{border-right:0;}
+.stat-cell:hover{background:rgba(240,235,227,.04);}
 .stat-num{
-  font-family:var(--font-display);
-  font-size:clamp(56px,8vw,100px);font-weight:900;
-  line-height:.9;letter-spacing:-2px;
-  margin-bottom:16px;
-  transition:color .3s;
-}
-.stat-num span{color:var(--pink);}
-.stat-label{
-  font-family:var(--font-display);
-  font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;
-  color:var(--gray);transition:color .3s;
-}
-@media(max-width:768px){
-  .stats{grid-template-columns:1fr;}
-  .stat{padding:40px 20px;border-right:0;border-bottom:1px solid rgba(0,0,0,.1);}
-}
-
-/* ── ABOUT ────────────────────────────────────── */
-.about{
-  display:grid;grid-template-columns:1fr 1fr;
-  min-height:80vh;
-}
-.about-img{
-  position:relative;overflow:hidden;
-  background:var(--light);
-}
-.about-img img{
-  width:100%;height:100%;object-fit:cover;
-  filter:grayscale(100%) contrast(1.1);
-  transition:transform .8s ease,filter .4s;
-  display:block;
-}
-.about-img:hover img{transform:scale(1.04);filter:grayscale(60%) contrast(1.1);}
-.about-img-label{
-  position:absolute;bottom:32px;left:32px;
-  font-family:var(--font-display);
-  font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase;
-  color:var(--white);
-  background:var(--pink);
-  padding:8px 16px;
-}
-.about-content{
-  padding:100px 80px;
-  display:flex;flex-direction:column;justify-content:center;
-  background:var(--black);color:var(--white);
-}
-.section-tag{
-  font-family:var(--font-display);
-  font-size:11px;font-weight:700;letter-spacing:5px;text-transform:uppercase;
-  color:var(--pink);margin-bottom:24px;
-}
-.about-content h2{
-  font-family:var(--font-display);
-  font-size:clamp(40px,5vw,68px);font-weight:900;
-  line-height:.95;letter-spacing:-1px;text-transform:uppercase;
-  margin-bottom:36px;
-}
-.about-content p{
-  font-size:16px;line-height:1.75;
-  color:rgba(255,255,255,.55);
-  margin-bottom:20px;
-}
-.about-content p:last-of-type{margin-bottom:40px;}
-.about-cta{
-  font-family:var(--font-display);
-  font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
-  color:var(--white);text-decoration:none;
-  display:inline-flex;align-items:center;gap:12px;
-  border-bottom:1px solid rgba(255,255,255,.2);
-  padding-bottom:4px;
-  transition:border-color .2s,gap .2s;
-}
-.about-cta:hover{border-color:var(--pink);gap:18px;color:var(--pink);}
-.about-cta-arrow{font-size:18px;transition:transform .2s;}
-.about-cta:hover .about-cta-arrow{transform:translateX(4px);}
-@media(max-width:900px){
-  .about{grid-template-columns:1fr;}
-  .about-img{min-height:50vw;}
-  .about-content{padding:60px 20px;}
-}
-
-/* ── BENEFITS ─────────────────────────────────── */
-.benefits{background:var(--light);padding:120px 48px;}
-.benefits-head{
-  display:flex;align-items:flex-end;justify-content:space-between;
-  margin-bottom:72px;
-}
-.benefits-head h2{
-  font-family:var(--font-display);
-  font-size:clamp(40px,6vw,80px);font-weight:900;
-  letter-spacing:-2px;text-transform:uppercase;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(44px,5vw,72px);
   line-height:.9;
+  color:var(--white);
+  margin-bottom:8px;
 }
-.benefits-head p{
-  font-size:15px;color:var(--gray);max-width:280px;line-height:1.6;
-  text-align:right;
+.stat-num sup{font-size:.4em;color:rgba(240,235,227,.4);}
+.stat-label{
+  font-family:'Courier Prime',monospace;
+  font-size:9px;letter-spacing:3px;text-transform:uppercase;
+  color:rgba(240,235,227,.3);
 }
-.benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
-.benefit{
-  background:var(--white);
-  padding:56px 40px;
-  position:relative;overflow:hidden;
-  cursor:default;
-  transition:background .3s;
-}
-.benefit:hover{background:var(--pink);}
-.benefit:hover .ben-num,
-.benefit:hover .ben-title,
-.benefit:hover .ben-text{color:var(--white);}
-.ben-num{
-  font-family:var(--font-display);
-  font-size:11px;font-weight:700;letter-spacing:4px;
-  color:var(--pink);margin-bottom:48px;
-  transition:color .3s;
-}
-.benefit:hover .ben-num{color:rgba(255,255,255,.5);}
-.ben-title{
-  font-family:var(--font-display);
-  font-size:32px;font-weight:800;letter-spacing:-.5px;text-transform:uppercase;
-  margin-bottom:16px;transition:color .3s;
-}
-.ben-text{font-size:15px;line-height:1.65;color:var(--gray);transition:color .3s;}
-@media(max-width:768px){
-  .benefits{padding:80px 20px;}
-  .benefits-head{flex-direction:column;align-items:flex-start;gap:20px;}
-  .benefits-head p{text-align:left;}
-  .benefits-grid{grid-template-columns:1fr;gap:2px;}
+@media(max-width:900px){
+  .photo-sec{grid-template-columns:1fr;}
+  .photo-main{min-height:60vw;}
+  .photo-side-top{padding:40px 24px;}
 }
 
-/* ── MARQUEE DIVIDER ───────────────────────────── */
-.marquee{
-  overflow:hidden;
-  background:var(--pink);
-  padding:18px 0;
-  border-top:none;
+/* ── ROLL STRIP (decorative) ── */
+.roll-strip{
+  background:var(--bg);
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  height:56px;overflow:hidden;
+  display:flex;align-items:center;
+  position:relative;
 }
-.marquee-inner{
+.roll-strip-inner{
   display:inline-flex;
-  animation:ticker 18s linear infinite;
+  animation:ticker 15s linear infinite;
   white-space:nowrap;
 }
-.marquee-item{
-  font-family:var(--font-display);
-  font-size:14px;font-weight:700;letter-spacing:4px;text-transform:uppercase;
-  color:var(--white);padding:0 32px;
+.roll-item{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:28px;letter-spacing:6px;
+  color:rgba(240,235,227,.07);
+  padding:0 24px;
 }
-.marquee-dot{opacity:.5;}
+.roll-item.accent{color:rgba(240,235,227,.16);}
 
-/* ── CTA ──────────────────────────────────────── */
+/* ── BENEFITS ── */
+.benefits{
+  padding:100px 60px;
+  border-top:1px solid var(--border);
+}
+.benefits-head{
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  gap:60px;
+  margin-bottom:80px;
+  align-items:end;
+}
+.benefits-head h2{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(56px,7vw,96px);
+  line-height:.88;
+  color:var(--white);
+}
+.benefits-head p{
+  font-family:'Courier Prime',monospace;
+  font-size:13px;line-height:1.85;
+  color:rgba(240,235,227,.4);
+  max-width:440px;
+}
+.benefits-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1px;
+  background:var(--border);
+}
+.benefit{
+  background:var(--bg);
+  padding:52px 40px;
+  position:relative;
+  transition:background .3s;
+  overflow:hidden;
+}
+.benefit::before{
+  content:'';
+  position:absolute;top:0;left:0;right:0;
+  height:1px;background:transparent;
+  transition:background .3s;
+}
+.benefit:hover{background:rgba(240,235,227,.04);}
+.benefit:hover::before{background:rgba(240,235,227,.35);}
+.ben-index{
+  font-family:'Courier Prime',monospace;
+  font-size:9px;letter-spacing:4px;
+  color:rgba(240,235,227,.2);
+  margin-bottom:52px;
+  display:block;
+}
+.ben-title{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:40px;letter-spacing:1px;
+  color:var(--white);
+  margin-bottom:16px;
+}
+.ben-text{
+  font-family:'Courier Prime',monospace;
+  font-size:12px;line-height:1.85;
+  color:rgba(240,235,227,.4);
+}
+@media(max-width:768px){
+  .benefits{padding:60px 24px;}
+  .benefits-head{grid-template-columns:1fr;}
+  .benefits-grid{grid-template-columns:1fr;}
+}
+
+/* ── CTA ── */
 .cta-section{
   min-height:70vh;
   display:flex;align-items:center;justify-content:center;
-  padding:100px 48px;
-  background:var(--black);
+  padding:100px 60px;
+  border-top:1px solid var(--border);
+  position:relative;
+  overflow:hidden;
   text-align:center;
-  position:relative;overflow:hidden;
 }
-.cta-section::before{
-  content:'';
+.cta-bg-text{
   position:absolute;
-  width:600px;height:600px;
-  background:radial-gradient(circle,rgba(255,0,110,.18) 0%,transparent 70%);
-  top:50%;left:50%;transform:translate(-50%,-50%);
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(120px,22vw,320px);
+  letter-spacing:-4px;
+  color:transparent;
+  -webkit-text-stroke:1px rgba(240,235,227,.04);
   pointer-events:none;
+  user-select:none;
+  white-space:nowrap;
 }
 .cta-inner{position:relative;z-index:1;}
-.cta-inner .section-tag{margin-bottom:28px;display:block;}
+.cta-inner .section-stamp{justify-content:center;margin-bottom:32px;}
 .cta-inner h2{
-  font-family:var(--font-display);
-  font-size:clamp(56px,10vw,140px);font-weight:900;
-  line-height:.88;letter-spacing:-3px;text-transform:uppercase;
-  color:var(--white);margin-bottom:36px;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(64px,12vw,160px);
+  line-height:.88;letter-spacing:-1px;
+  color:var(--white);
+  margin-bottom:32px;
 }
-.cta-inner h2 em{font-style:normal;color:var(--pink);}
 .cta-inner p{
-  font-size:18px;color:rgba(255,255,255,.45);
-  max-width:480px;margin:0 auto 52px;line-height:1.65;
-}
-@media(max-width:768px){
-  .cta-section{padding:80px 20px;}
-  .cta-inner h2{letter-spacing:-1px;}
+  font-family:'Courier Prime',monospace;
+  font-size:13px;line-height:1.85;
+  color:rgba(240,235,227,.4);
+  max-width:400px;
+  margin:0 auto 52px;
 }
 
-/* ── FOOTER ───────────────────────────────────── */
+/* ── FOOTER ── */
 footer{
-  background:var(--black);color:var(--white);
-  border-top:1px solid rgba(255,255,255,.06);
-  padding:64px 48px 36px;
+  border-top:1px solid var(--border);
+  padding:60px 60px 40px;
 }
 .footer-top{
-  display:flex;align-items:flex-start;justify-content:space-between;
-  gap:60px;margin-bottom:60px;
+  display:flex;justify-content:space-between;
+  align-items:flex-start;
+  gap:40px;
+  margin-bottom:56px;
 }
-.footer-brand .logo{font-size:22px;margin-bottom:14px;display:block;}
-.footer-brand p{font-size:13px;color:rgba(255,255,255,.35);max-width:260px;line-height:1.7;}
-.footer-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:48px;}
+.footer-brand .logo{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:24px;letter-spacing:4px;
+  color:var(--white);
+  display:block;margin-bottom:12px;
+}
+.footer-brand p{
+  font-family:'Courier Prime',monospace;
+  font-size:11px;line-height:1.75;
+  color:rgba(240,235,227,.25);
+  max-width:240px;
+}
+.footer-cols{display:flex;gap:56px;}
 .footer-col h5{
-  font-family:var(--font-display);
-  font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase;
-  color:rgba(255,255,255,.3);margin-bottom:20px;
+  font-family:'Courier Prime',monospace;
+  font-size:9px;letter-spacing:4px;text-transform:uppercase;
+  color:rgba(240,235,227,.2);
+  margin-bottom:18px;
 }
 .footer-col ul{list-style:none;}
 .footer-col li{margin-bottom:10px;}
 .footer-col a{
-  font-size:14px;color:rgba(255,255,255,.6);
-  text-decoration:none;transition:color .2s;
+  font-family:'Courier Prime',monospace;
+  font-size:12px;
+  color:rgba(240,235,227,.45);
+  text-decoration:none;
+  transition:color .2s;
 }
-.footer-col a:hover{color:var(--pink);}
+.footer-col a:hover{color:var(--paper);}
 .footer-bottom{
-  display:flex;align-items:center;justify-content:space-between;
-  padding-top:28px;border-top:1px solid rgba(255,255,255,.07);
+  display:flex;justify-content:space-between;align-items:center;
+  padding-top:24px;
+  border-top:1px solid var(--border);
 }
-.footer-bottom p{font-size:12px;color:rgba(255,255,255,.2);}
+.footer-bottom p,.footer-legal a{
+  font-family:'Courier Prime',monospace;
+  font-size:10px;letter-spacing:2px;
+  color:rgba(240,235,227,.15);
+}
 .footer-legal{display:flex;gap:24px;}
-.footer-legal a{font-size:12px;color:rgba(255,255,255,.2);text-decoration:none;transition:color .2s;}
-.footer-legal a:hover{color:var(--white);}
+.footer-legal a{text-decoration:none;transition:color .2s;}
+.footer-legal a:hover{color:var(--paper);}
 @media(max-width:900px){
-  footer{padding:48px 20px 28px;}
-  .footer-top{flex-direction:column;gap:40px;}
-  .footer-cols{grid-template-columns:repeat(2,1fr);gap:32px;}
+  footer{padding:40px 24px 32px;}
+  .footer-top{flex-direction:column;}
   .footer-bottom{flex-direction:column;gap:12px;text-align:center;}
 }
 
-/* ── ANIMATIONS ───────────────────────────────── */
-@keyframes up{
-  from{opacity:0;transform:translateY(24px)}
-  to{opacity:1;transform:translateY(0)}
-}
-@keyframes fadeIn{from{opacity:0}to{opacity:1}}
-
-/* scroll reveal */
-.reveal{opacity:0;transform:translateY(40px);transition:opacity .7s,transform .7s;}
-.reveal.visible{opacity:1;transform:none;}
-
-/* ── LOADER ───────────────────────────────────── */
+/* ── LOADER ── */
 .loader{
   position:fixed;inset:0;z-index:10000;
-  background:var(--black);
+  background:var(--bg);
   display:flex;align-items:center;justify-content:center;
-  transition:opacity .6s,visibility .6s;
+  transition:opacity .8s .2s, visibility .8s .2s;
 }
-.loader.off{opacity:0;visibility:hidden;pointer-events:none;}
+.loader.off{opacity:0;visibility:hidden;}
 .loader-inner{
-  font-family:var(--font-display);
-  font-size:clamp(28px,5vw,52px);font-weight:900;
-  letter-spacing:6px;text-transform:uppercase;color:var(--white);
-  animation:pulse 1.2s infinite;
+  display:flex;flex-direction:column;align-items:center;gap:20px;
 }
-.loader-inner span{color:var(--pink);}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
-</style>
-<link rel="alternate" hreflang="uk" href="https://svitanok.club/">
-<link rel="alternate" hreflang="en" href="https://svitanok.club/en/">
-<link rel="alternate" hreflang="x-default" href="https://svitanok.club/">
-<link rel="sitemap" type="application/xml" href="https://svitanok.club/sitemap.xml">
+.loader-logo{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:48px;letter-spacing:6px;
+  color:var(--white);
+}
+.loader-bar{
+  width:200px;height:1px;
+  background:rgba(240,235,227,.1);
+  position:relative;overflow:hidden;
+}
+.loader-bar::after{
+  content:'';position:absolute;inset:0;left:-100%;
+  background:linear-gradient(90deg, transparent, var(--paper), transparent);
+  animation:scan 1.2s linear forwards;
+}
+.loader-meta{
+  font-family:'Courier Prime',monospace;
+  font-size:9px;letter-spacing:3px;text-transform:uppercase;
+  color:rgba(240,235,227,.3);
+}
+@keyframes scan{0%{left:-100%}100%{left:100%}}
 
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(28px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.reveal{opacity:0;transform:translateY(32px);transition:opacity .8s,transform .8s;}
+.reveal.visible{opacity:1;transform:none;}
+</style>
 </head>
 <body>
 
 <!-- Loader -->
 <div class="loader" id="loader">
-  <div class="loader-inner">Svitanok<span>.</span></div>
+  <div class="loader-inner">
+    <div class="loader-logo">SVITANOK</div>
+    <div class="loader-bar"></div>
+    <div class="loader-meta">KYIV · UKRAINE · 2025</div>
+  </div>
 </div>
 
-<!-- Cursor -->
-<div class="cur" id="cur"></div>
+
 
 <!-- Nav -->
-<nav role="navigation" aria-label="Головна навігація">
-  <div class="logo">Svitanok<span>.</span></div>
-  <ul class="nav-links">
-    <li><a href="#hero">Головна</a></li>
-    <li><a href="#stats">Клуб</a></li>
-    <li><a href="#about">Про нас</a></li>
-    <li><a href="#benefits">Переваги</a></li>
-  </ul>
-  <a href="https://t.me/+E9b2aZzJI5pmY2My" target="_blank" class="nav-join">Приєднатися</a>
+<nav>
+  <div>
+    <div class="logo">SVITANOK</div>
+  </div>
+  <div class="nav-meta">
+    <span class="nav-frame">KYIV · UA · 2025</span>
+    <a href="https://t.me/+E9b2aZzJI5pmY2My" target="_blank" class="nav-join">Приєднатися</a>
+  </div>
 </nav>
 
-<main role="main" id="main-content">
+<main>
 
 <!-- Hero -->
-<section class="hero" id="hero" aria-label="Головна секція Svitanok Club" itemscope itemtype="https://schema.org/WPHeader">
-  <div class="hero-deco" aria-hidden="true">RUN</div>
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+
+
+
   <div class="hero-inner">
-    <div class="hero-tag">Київ, Україна — з 2025</div>
-    <h1 class="hero-h1">Svitanok<br><em>Club</em></h1>
-    <p class="hero-desc">Спільнота бігунів та велосипедистів, що тренуються на світанку. Знаходь однодумців, ставай швидшим, отримуй енергію на весь день.</p>
-    <div class="hero-actions">
-      <a href="https://t.me/+E9b2aZzJI5pmY2My" target="_blank" class="btn-primary">Вступити в клуб</a>
-      <a href="#about" class="btn-ghost">Дізнатись більше ↓</a>
+    <div class="hero-counter">KYIV, UKRAINE — EST. 2025</div>
+    <div class="hero-h1">SVITANOK</div>
+    <div class="hero-h1-sub">CLUB</div>
+    <div class="hero-bottom">
+      <p class="hero-desc">Спільнота бігунів і велосипедистів,<br>
+що тренуються до сходу сонця.<br>
+Знаходь однодумців. Ставай швидшим.</p>
+      <div class="hero-actions">
+        <a href="https://t.me/+E9b2aZzJI5pmY2My" target="_blank" class="btn-film">Вступити в клуб</a>
+        <a href="#about" class="btn-outline">↓ Дізнатись більше</a>
+      </div>
     </div>
   </div>
+
   <div class="hero-ticker">
-    <div class="ticker-track" id="ticker">
-      <span class="ticker-item">Біг <span class="dot">●</span></span>
-      <span class="ticker-item">Велоспорт <span class="dot">●</span></span>
-      <span class="ticker-item">Спільнота <span class="dot">●</span></span>
-      <span class="ticker-item">Ранкові тренування <span class="dot">●</span></span>
-      <span class="ticker-item">Київ <span class="dot">●</span></span>
-      <span class="ticker-item">Мотивація <span class="dot">●</span></span>
-      <span class="ticker-item">Прогрес <span class="dot">●</span></span>
-      <span class="ticker-item">Біг <span class="dot">●</span></span>
-      <span class="ticker-item">Велоспорт <span class="dot">●</span></span>
-      <span class="ticker-item">Спільнота <span class="dot">●</span></span>
-      <span class="ticker-item">Ранкові тренування <span class="dot">●</span></span>
-      <span class="ticker-item">Київ <span class="dot">●</span></span>
-      <span class="ticker-item">Мотивація <span class="dot">●</span></span>
-      <span class="ticker-item">Прогрес <span class="dot">●</span></span>
+    <div class="ticker-track">
+      <span class="ticker-item">БІГ <span class="sep">·</span></span>
+      <span class="ticker-item">ВЕЛОСПОРТ <span class="sep">·</span></span>
+      <span class="ticker-item">СПІЛЬНОТА <span class="sep">·</span></span>
+      <span class="ticker-item">РАНКОВІ ТРЕНУВАННЯ <span class="sep">·</span></span>
+      <span class="ticker-item">КИЇВ <span class="sep">·</span></span>
+      <span class="ticker-item">МОТИВАЦІЯ <span class="sep">·</span></span>
+      <span class="ticker-item">ПРОГРЕС <span class="sep">·</span></span>
+      <span class="ticker-item">БІГ <span class="sep">·</span></span>
+      <span class="ticker-item">ВЕЛОСПОРТ <span class="sep">·</span></span>
+      <span class="ticker-item">СПІЛЬНОТА <span class="sep">·</span></span>
+      <span class="ticker-item">РАНКОВІ ТРЕНУВАННЯ <span class="sep">·</span></span>
+      <span class="ticker-item">КИЇВ <span class="sep">·</span></span>
+      <span class="ticker-item">МОТИВАЦІЯ <span class="sep">·</span></span>
+      <span class="ticker-item">ПРОГРЕС <span class="sep">·</span></span>
     </div>
   </div>
 </section>
 
-<!-- Stats -->
-<section class="stats" id="stats" aria-label="Статистика клубу" itemscope itemtype="https://schema.org/SportsOrganization">
-  <div class="stat reveal">
-    <div class="stat-bar"></div>
-    <div class="stat-num">30<span>+</span></div>
-    <div class="stat-label">Активних членів</div>
-  </div>
-  <div class="stat reveal">
-    <div class="stat-bar"></div>
-    <div class="stat-num">20<span>+</span></div>
-    <div class="stat-label">Проведених подій</div>
-  </div>
-  <div class="stat reveal">
-    <div class="stat-bar"></div>
-    <div class="stat-num">1.5<span>K</span></div>
-    <div class="stat-label">Кілометрів разом</div>
-  </div>
-</section>
-
-<!-- About -->
-<section class="about" id="about" aria-label="Про Svitanok Club" itemscope itemtype="https://schema.org/AboutPage">
-  <div class="about-img">
+<!-- Photo + About -->
+<section class="photo-sec" id="about">
+  <div class="photo-main">
     <img 
-      src="https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=900&h=1100&fit=crop&q=80&auto=format"
-      onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1517649763962-0c623066013b?w=900&h=1100&fit=crop&q=80&auto=format'"
-      alt="Тренування Svitanok Club" loading="lazy">
-    <div class="about-img-label">З 2025 року</div>
+      src="https://scontent-iev1-1.cdninstagram.com/v/t51.75761-15/488601958_18513993208004066_7852539867173841282_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=111&ig_cache_key=MzYwNDAzMDc1OTI0OTI3NzkwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTIxNy5zZHIuQzMifQ%3D%3D&_nc_ohc=VGAi9obt5hsQ7kNvwHCGGTR&_nc_oc=Adq8836AdyFmNvnqEgozfnnCKBNuiUQQneLRAglKiy_IM0UgZAa7GZ4i9FliR2Bzu8E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iev1-1.cdninstagram.com&_nc_gid=iMDM0iqeuJn39FpWg8w7ZA&_nc_ss=7a32e&oh=00_Af3AjD2EDmNHL3I9nqGkFAYDmHr6gjBaPPbGUjhAITs-WA&oe=69E2FA62"
+      alt="Svitanok Club тренування" loading="lazy">
+    <div class="photo-frame-label">SVITANOK · KYIV</div>
   </div>
-  <div class="about-content reveal">
-    <div class="section-tag">Наша історія</div>
-    <h2>Спільнота,<br>що рухається</h2>
-    <p>Svitanok Club народився у 2025 році з простої ідеї — збирати людей, що люблять рухатись, до сходу сонця. Ранок дає особливу тишу, порожні вулиці та чисту енергію.</p>
-    <p>Ми об'єднуємо бігунів і велосипедистів усіх рівнів — від новачків до досвідчених атлетів. Тут важливий не темп, а спільний ритм.</p>
-    <a href="https://t.me/+E9b2aZzJI5pmY2My" target="_blank" class="about-cta">
-      Приєднатись до нас
-      <span class="about-cta-arrow">→</span>
-    </a>
+  <div class="photo-side">
+    <div class="photo-side-top reveal">
+      <div class="section-stamp">Наша історія</div>
+      <h2>Спіль&shy;нота,<br>що<br>рухається</h2>
+      <p>Svitanok Club народився у 2025 з простої ідеї — збирати людей до сходу сонця. Ранок дає порожні вулиці, тишу і чисту енергію.</p>
+      <p>Ми об'єднуємо бігунів і велосипедистів усіх рівнів. Тут важливий не темп, а спільний ритм.</p>
+      <a href="https://t.me/+E9b2aZzJI5pmY2My" class="about-link" target="_blank">Приєднатись → </a>
+    </div>
+    <div class="photo-side-bottom">
+      <div class="stat-cell reveal">
+        <div class="stat-num">30<sup>+</sup></div>
+        <div class="stat-label">Членів клубу</div>
+      </div>
+      <div class="stat-cell reveal">
+        <div class="stat-num">20<sup>+</sup></div>
+        <div class="stat-label">Подій</div>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- Marquee divider -->
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-inner">
-    <span class="marquee-item">Svitanok Club</span>
-    <span class="marquee-item marquee-dot">✦</span>
-    <span class="marquee-item">Biг · Велоспорт</span>
-    <span class="marquee-item marquee-dot">✦</span>
-    <span class="marquee-item">Kyiv, Ukraine</span>
-    <span class="marquee-item marquee-dot">✦</span>
-    <span class="marquee-item">2025 —</span>
-    <span class="marquee-item marquee-dot">✦</span>
-    <span class="marquee-item">Svitanok Club</span>
-    <span class="marquee-item marquee-dot">✦</span>
-    <span class="marquee-item">Biг · Велоспорт</span>
-    <span class="marquee-item marquee-dot">✦</span>
-    <span class="marquee-item">Kyiv, Ukraine</span>
-    <span class="marquee-item marquee-dot">✦</span>
-    <span class="marquee-item">2025 —</span>
-    <span class="marquee-item marquee-dot">✦</span>
+<!-- Roll strip -->
+<div class="roll-strip" aria-hidden="true">
+  <div class="roll-strip-inner">
+    <span class="roll-item">RUN</span>
+    <span class="roll-item">RIDE</span>
+    <span class="roll-item accent">SVITANOK</span>
+    <span class="roll-item">RUN</span>
+    <span class="roll-item">RIDE</span>
+    <span class="roll-item accent">KYIV</span>
+    <span class="roll-item">RUN</span>
+    <span class="roll-item">RIDE</span>
+    <span class="roll-item accent">SVITANOK</span>
+    <span class="roll-item">RUN</span>
+    <span class="roll-item">RIDE</span>
+    <span class="roll-item accent">KYIV</span>
+    <span class="roll-item">RUN</span>
+    <span class="roll-item">RIDE</span>
+    <span class="roll-item accent">SVITANOK</span>
+    <span class="roll-item">RUN</span>
+    <span class="roll-item">RIDE</span>
+    <span class="roll-item accent">KYIV</span>
   </div>
 </div>
 
 <!-- Benefits -->
-<section class="benefits" id="benefits" aria-label="Переваги членства в Svitanok Club">
+<section class="benefits" id="benefits">
   <div class="benefits-head reveal">
-    <h2>Чому<br>Svitanok?</h2>
-    <p>Три причини, через які люди залишаються в нашій спільноті назавжди.</p>
+    <h2>ЧОМУ<br>SVITANOK?</h2>
+    <p>Три причини, через які люди залишаються в нашій спільноті. Знімок за знімком, кілометр за кілометром.</p>
   </div>
-  <div class="benefits-grid" itemscope itemtype="https://schema.org/ItemList">
-    <div class="benefit reveal" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <meta itemprop="position" content="1">
-      <div class="ben-num">01 / 03</div>
-      <div class="ben-title" itemprop="name">Спільнота</div>
-      <div class="ben-text" itemprop="description">Знайди людей, що поділяють твою пристрасть до активного способу життя. Вранці, поруч, щодня.</div>
+  <div class="benefits-grid">
+    <div class="benefit reveal">
+      <span class="ben-index">01 / 03 · COMMUNITY</span>
+      <div class="ben-title">СПІЛЬНОТА</div>
+      <div class="ben-text">Знайди людей, що поділяють твою пристрасть до активного способу життя. Вранці, поруч, щодня.</div>
     </div>
-    <div class="benefit reveal" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <meta itemprop="position" content="2">
-      <div class="ben-num">02 / 03</div>
-      <div class="ben-title" itemprop="name">Прогрес</div>
-      <div class="ben-text" itemprop="description">Відстежуй досягнення, ставай кращою версією себе. Кожен кілометр — це крок до нової мети.</div>
+    <div class="benefit reveal">
+      <span class="ben-index">02 / 03 · PROGRESS</span>
+      <div class="ben-title">ПРОГРЕС</div>
+      <div class="ben-text">Відстежуй досягнення, ставай кращою версією себе. Кожен кілометр — це крок до нової мети.</div>
     </div>
-    <div class="benefit reveal" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <meta itemprop="position" content="3">
-      <div class="ben-num">03 / 03</div>
-      <div class="ben-title" itemprop="name">Мотивація</div>
-      <div class="ben-text" itemprop="description">Тренуватись легше разом. Клуб — це не лише спорт, це підтримка та натхнення 24/7.</div>
+    <div class="benefit reveal">
+      <span class="ben-index">03 / 03 · MOTIVATION</span>
+      <div class="ben-title">МОТИВАЦІЯ</div>
+      <div class="ben-text">Тренуватись легше разом. Клуб — це не лише спорт, це підтримка та натхнення 24/7.</div>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
 <section class="cta-section">
-  <div class="cta-inner">
-    <span class="section-tag">Готові?</span>
-    <h2>Почни<br><em>зараз</em></h2>
+  <div class="cta-bg-text" aria-hidden="true">SVITANOK</div>
+  <div class="cta-inner reveal">
+    <div class="section-stamp">Готові?</div>
+    <h2>ПОЧНИ<br>ЗАРАЗ</h2>
     <p>Приєднуйся до Svitanok Club та відкрий нові горизонти разом з нами.</p>
-    <a href="https://t.me/+E9b2aZzJI5pmY2My" target="_blank" class="btn-primary">Вступити в Telegram</a>
+    <a href="https://t.me/+E9b2aZzJI5pmY2My" target="_blank" class="btn-film">Вступити в Telegram</a>
   </div>
 </section>
 
 </main>
 
-<!-- Hidden FAQ for Google Rich Results (visually hidden, semantically present) -->
-<section aria-label="Часті запитання" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;" itemscope itemtype="https://schema.org/FAQPage">
-  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 itemprop="name">Як приєднатися до Svitanok Club?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p itemprop="text">Приєднатися до Svitanok Club можна безкоштовно через Telegram-групу. Натисніть кнопку «Приєднатися» на сайті та перейдіть до нашого чату.</p>
-    </div>
-  </div>
-  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 itemprop="name">Де проходять тренування Svitanok Club?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p itemprop="text">Тренування клубу проходять у Києві. Конкретні локації та час анонсуються у Telegram-групі клубу.</p>
-    </div>
-  </div>
-  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 itemprop="name">Для якого рівня підготовки підходить клуб?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p itemprop="text">Svitanok Club відкритий для всіх — від початківців до досвідчених атлетів. Головне — бажання рухатися та бути частиною спільноти.</p>
-    </div>
-  </div>
-</section>
-
 <!-- Footer -->
-<footer itemscope itemtype="https://schema.org/WPFooter" role="contentinfo">
+<footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <span class="logo">Svitanok<span>.</span></span>
-      <p>Спільнота бігунів і велосипедистів Києва. Тренуємося на світанку — живемо яскравіше.</p>
+      <span class="logo">SVITANOK</span>
+      <p>Спільнота бігунів і велосипедистів Києва.<br>Тренуємося на світанку — живемо яскравіше.</p>
     </div>
     <div class="footer-cols">
       <div class="footer-col">
@@ -875,7 +776,7 @@ footer{
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2025 Svitanok Club. Всі права захищені.</p>
+    <p>© 2025 SVITANOK CLUB · ALL RIGHTS RESERVED</p>
     <div class="footer-legal">
       <a href="#">Конфіденційність</a>
       <a href="#">Умови використання</a>
@@ -886,21 +787,18 @@ footer{
 <script>
 // Loader
 window.addEventListener('load',()=>{
-  setTimeout(()=>{document.getElementById('loader').classList.add('off')},800);
+  setTimeout(()=>{document.getElementById('loader').classList.add('off')},1400);
 });
 
-// Cursor
-const cur=document.getElementById('cur');
-let mx=0,my=0,cx=0,cy=0;
-document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;});
-(function loop(){
-  cx+=(mx-cx)*.18;cy+=(my-cy)*.18;
-  cur.style.left=cx+'px';cur.style.top=cy+'px';
-  requestAnimationFrame(loop);
-})();
-document.querySelectorAll('a,button').forEach(el=>{
-  el.addEventListener('mouseenter',()=>cur.classList.add('big'));
-  el.addEventListener('mouseleave',()=>cur.classList.remove('big'));
+// Scroll reveal
+const obs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting) e.target.classList.add('visible');
+  });
+},{threshold:.12,rootMargin:'0px 0px -50px 0px'});
+document.querySelectorAll('.reveal').forEach((el,i)=>{
+  el.style.transitionDelay=(i%3)*.12+'s';
+  obs.observe(el);
 });
 
 // Smooth scroll
@@ -909,21 +807,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
     const t=document.querySelector(a.getAttribute('href'));
     if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}
   });
-});
-
-// Reveal on scroll
-const obs=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');}});
-},{threshold:.15,rootMargin:'0px 0px -60px 0px'});
-document.querySelectorAll('.reveal').forEach((el,i)=>{
-  el.style.transitionDelay=(i%3)*.1+'s';
-  obs.observe(el);
-});
-
-// Nav shrink on scroll
-const nav=document.querySelector('nav');
-window.addEventListener('scroll',()=>{
-  nav.style.borderBottomColor=window.scrollY>60?'rgba(0,0,0,.15)':'rgba(0,0,0,.08)';
 });
 </script>
 </body>
